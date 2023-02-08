@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Blog</title>
+        <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!-- header start -->
+        <header>
+            <!--BUTTON DARK MODE start-->
+				<button class="switch" id="switch">
+					<span><i class="fas fa-sun"></i></span>
+					<span><i class="fas fa-moon"></i></span>
+				</button>
+            <!--BUTTON DARK MODE start-->
+        </header>
+        
+        <div id="header" class="section">
+            <img alt="" class="img-circle" src="./images/perfil.png">
+            <p>Gio GilCol</p>
+        </div>
+        <!-- header end -->
+        
+        <!-- About Me section start -->
+        <div class="section">
+            <h1><span>Sobre mi</span></h1>
+            <p>
+                Hey! Soy <strong>Gio</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
+            </p>
+            <p class="quote">"Declare variables, not war"</p>
+        </div>
+        <!-- About Me section end -->
+        
+        <!-- My Schedule section start -->
+        <div class="section">
+            <h2><span>Mi horario de codificación</span></h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>Lun</th>
+                    <th>Mar</th>
+                    <th>Mie</th>
+                    <th>Jue</th>
+                    <th>Vie</th>
+                </tr>
+                <tr>
+                    <td>8-8:30</td>
+                    <td class="selected">Aprender</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9-10</td>
+                    <td></td>
+                    <td class="selected">Prácticar</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>1-1:30</td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Prácticar</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3:45-5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Codificar</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6-6:15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="selected">Testear</td>
+                </tr>
+            </table>
+        </div>
+        <!-- My Schedule section end -->
+        
+        
+        <!-- My Skills section start -->
+        <div class="section">
+            <h2><span>Mis habilidades</span></h2>
+            <ul>
+                <li>HTML <br />
+                    <progress min="0" max="100" value="90"></progress>
+                </li>
+                <li>CSS <br />
+                    <progress min="0" max="100" value="80"></progress>
+                </li>
+                <li>JavaScript <br />
+                    <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>Bootstrap <br />
+                    <progress min="0" max="100" value="70"></progress>
+                </li>
+                <li>Responsive Design <br />
+                    <progress min="0" max="100" value="80"></progress>
+                </li>
+            </ul>
+        </div>
+        <!-- My Skills section end -->
+        
+        
+         <!-- Media section start -->
+        <div class="section">
+            <h2><span>My Media</span></h2>
+            <iframe src="https://www.youtube.com/embed/M1f_WxNZTFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- Media section end -->
+        
+        <!-- Form section start -->
+       <div class="section">
+            <h2><span>Contáctame</span></h2>
+
+            <img class="face-img" src="./images/perfil1.png">  
+
+            <form>
+                <input name="name" placeholder="Nombre" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Mensaje" required ></textarea>
+                <input type="submit" value="ENVIAR" class="submit" />
+            </form>
+        </div>
+        <!-- Form section end -->
+        
+        <!-- Contacts section start -->
+        <div class="section" id="contacts">
+            <h2><span>Sigueme</span></h2>
+            <div>
+                <a class="social" href="https://github.com/xavigil1" target="_blank">
+                    <img alt="GitHub" src="./images/git.png" />
+                </a>
+                <a class="social" href="https://www.linkedin.com/in/franco-gil-7a63a1125/" target="_blank">
+                    <img alt="Linkedin" src="./images/linkedin.png" />
+                </a>
+                <a class="social" href="https://www.instagram.com/gilcolproducciones/" target="_blank">
+                    <img alt="Instagram" src="./images/instagram.png" />
+                </a>
+                <a class="social" href="https://www.facebook.com/Gilcolproducciones" Target="_blank">
+                    <img alt="Facebook" src="./images/face.png"/>
+                </a>
+                <a class="social" href="https://www.youtube.com/@gilcolproducciones" Target="_blank">
+                    <img alt="Youtube" src="./images/youtube.png" />
+                </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+        
+        <div class="copyright">
+            &copy; 2023 Franco Gil. All rights reserved.
+        </div>
+        
+        <script src="./js/toggle.js" type="text/javascript"></script>
+    </body>
+</html>
